@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactwebsite/static/css/main.44192d9c.css",
+    "main.js": "/reactwebsite/static/js/main.2db1640f.js",
+    "static/media/OIP.jpeg": "/reactwebsite/static/media/OIP.82fc22a1863d11475dfa.jpeg",
+    "static/media/OIP (3).jpeg": "/reactwebsite/static/media/OIP (3).d8d269626951244445d8.jpeg",
+    "static/media/OIP (1).jpeg": "/reactwebsite/static/media/OIP (1).7dd463c0a5f050e6da3e.jpeg",
+    "index.html": "/reactwebsite/index.html",
+    "main.44192d9c.css.map": "/reactwebsite/static/css/main.44192d9c.css.map",
+    "main.2db1640f.js.map": "/reactwebsite/static/js/main.2db1640f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44192d9c.css",
+    "static/js/main.2db1640f.js"
+  ]
+}
