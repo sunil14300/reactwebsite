@@ -1,0 +1,335 @@
+.sliding{
+    height: 530px;
+  }
+  
+  /* Basic Reset */
+ 
+  /* Body and overall layout */
+  
+  .heading{
+    background-color: #0099ff5a;
+  }
+  
+  
+  h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #051829E6;
+  }
+  h2{
+    /* padding-top: 25px; */
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #051829E6;
+  }
+  
+  h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #051829E6;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  h3{
+    padding-top: 30px;
+    color:#051829E6;
+    font-weight: bolder;
+  }
+  
+  /* Feedback Section */
+  .feedback-section {
+    background: #ffffff;
+    border: 1px solid #4a4444;
+    border-radius: 10px;
+    height: 400px;
+    width: 300px;
+    /* padding: 1rem; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  }
+  
+  /* Accordion */
+  .accordion-button {
+    background-color: #f0f4f7;
+    color: #004d99;
+    border: 1px solid #cce0ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #003366;
+    background-color: #eaf0ff;
+    border-color: #b3c6ff;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 255, 0.25);
+  }
+  
+  .accordion-body {
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Footer */
+  .info-section {
+    background: #333333;
+    color: #ffffff;
+    padding: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-section h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .info-section a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .info-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #000204;
+    color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .link{
+         
+    text-decoration: none;
+    font-size: 25px;
+    
+  }
+  .link:hover{
+    color:#1f318e;
+    text-decoration: none;
+  }
+  .foot{
+    text-decoration: none;
+    color: blue;
+    font-size: 35px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .feedback-section {
+      margin-bottom: 1rem;
+    }
+  
+    .info-section .col-md-4 {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .btn-custom {
+    background-color: #0056b3; 
+    color: #ffffff; 
+    border: 2px solid #ffffff; 
+    padding: 12px 24px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-radius: 8px; 
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #004080; 
+    color: #ffc107; 
+    border: 2px solid #ffc107; 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+  }
+  
+  .btn-custom:active {
+    background-color: #003366; 
+    color: #adb5bd; 
+    border: 2px solid #adb5bd; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transform: translateY(0);
+  }
+  
+  .project{
+  background-color: #051829E6;
+  }
+  
+  /*051829E6*/
+  .accordion-item {
+  margin-bottom: 20px; 
+  }
+  
+  /* image  */
+  
+  .image-slider {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  }
+  
+  .slider-container {
+  display: flex;
+  margin-bottom: 40px;
+  }
+  
+  .project-image {
+  display: inline-block;
+  width: 100px; /* Adjust size as needed */
+  height: 400px;
+  margin: 0;
+  }
+  
+  .image-slider::-webkit-scrollbar {
+  height: 8px;
+  
+  }
+  
+  .image-slider::-webkit-scrollbar-thumb {
+  background-color: #0099ff;
+  border-radius: 10px;
+  }
+  
+  .image-slider::-webkit-scrollbar-thumb:hover {
+  background-color: #0099ff;
+  }
+  
+  .ser-btn{
+  font-weight:500;
+  text-decoration: none;
+  font-size:1.5rem;
+  background-color: #0099ff;
+  color: #051829E6;
+  padding: 5px 20px;
+  }
+  .ser-btn:hover{
+  background-color: #051829E6;
+  color:#fff;
+  }
+  
+  .col-md-3 {
+  text-align: center;
+  }
+  
+  .highlight {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .highlight::after {
+  border-radius: 10px;
+  content: "";
+  display: block;
+  width: 100%; /* Width of the line matches the width of "OUR" */
+  height: 5px; /* Thickness of the line */
+  background-color: #0099ff; /* Color of the line */
+  margin-top: 5px; /* Space between text and line */
+  position: absolute;
+  left: 0;
+  bottom: -10px; /* Adjust the distance below the text */
+  }
+  
+  .image-carousel {
+  height: 300px;
+  overflow: hidden;
+  width: 100%; /* Ensure it takes the full container width */
+  max-width: 1200px; /* Adjust as needed to fit three images */
+  margin: auto;
+  }
+  
+  .image-wrapper {
+  display: flex;
+  animation: slide 15s infinite;
+  }
+  
+  .project-image {
+  width: calc(100% / 3); /* Each image takes 1/3 of the carousel width */
+  /* flex-shrink: 0; */
+  }
+  
+  @keyframes slide {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-33.33%); }
+  40% { transform: translateX(-66.66%); }
+  60% { transform: translateX(-99.99%); }
+  80% { transform: translateX(-133.32%); }
+  100% { transform: translateX(0); }
+  }
+  
+  /* contact us */
+  
+  .contact-us{
+  background-color: #051829E6;
+  color: #fff;
+  }
+  
+  .abc{
+  border: 1px solid #0056b3;
+  }
+  
+  #logo{
+  height: 100px;
+  width: 150px;
+  border-radius: 50%;
+  
+  }
+  .nav-logo{
+  margin-right: 10px;
+  width: 70px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  }
+  
+  .n-foot{
+  text-align: left;
+  }
+  
+  .n-link{
+  padding-top: 12px;
+  text-decoration: none !important; /* Remove underline */
+  color: white; /* Ensure the text color is appropriate */
+  display: inline-block;
+  }
+  .n-link:hover{
+  color: #0056b3;
+  }
+  
+  .service {
+  text-align: left; /* Align text to the left */
+  }
+  
+  .link1 {
+  padding-top: 12px;
+  text-decoration: none !important; /* Remove underline */
+  color: white; /* Ensure the text color is appropriate */
+  display: inline-block; /* Helps in keeping alignment consistent */
+  }
+  .link1:hover{
+  color: #0056b3;
+  }
+  
+  .arrow {
+  color: #0056b3;
+  margin-right: 5px; /* Add some space between the arrow and the text */
+  }
+  
